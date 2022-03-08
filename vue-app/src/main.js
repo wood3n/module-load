@@ -1,12 +1,12 @@
 import Vue from 'vue'
-import HUI from 'hui';
-import 'hui/lib/hui.css';
+import ElementUI from 'element-ui';
+import 'element-ui/lib/theme-chalk/index.css';
 import singleSpaVue from 'single-spa-vue';
 import App from './App.vue';
 
 Vue.config.productionTip = false;
 
-Vue.use(HUI);
+Vue.use(ElementUI);
 
 const vueLifecycles = singleSpaVue({
   Vue,
